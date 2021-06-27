@@ -1,0 +1,51 @@
+.logo{
+    margin-top: 1rem !important;
+    display: inline-block;
+}
+
+.timer{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/*Animation*/
+
+.ml3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 1rem !important;
+    
+  }
+/*Animation Complete*/
+
+.col{
+    margin-top: 2rem !important;
+    margin-right: .2rem !important;
+    margin-left: .2rem !important;
+}
+
+
+
+#stopwatch {
+    font-size: 100px;
+}
+
+.afterTimer{
+    display: none;
+}
+
+.quote {
+    margin-top: 3rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    font-size: 1.25rem;
+}
+
+.resultDone{
+    margin-top: 3rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
