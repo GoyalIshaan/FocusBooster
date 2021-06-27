@@ -1,4 +1,5 @@
-var audio= new Audio("sound1.mp3");
+var audio= new Audio("sound1(1).mp3");
+audio.loop=true;
 
 // Logic
 function rest_time(t) {
