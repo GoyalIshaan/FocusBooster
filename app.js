@@ -1,15 +1,4 @@
-var audio= new Audio("/assets/sounds/sound1.mp3");
-function playSong(){
-
-    var name = [1,2,3,4,5,6];
-    var index = Math.floor(Math.random()*name.length);
-
-    var sound ="https://youtu.be/pJ5FD9_Orbg";
-
-
-    audio.play();
-
-}
+var audio= new Audio("/sound1.mp3");
 
 // Logic
 function rest_time(t) {
@@ -46,7 +35,6 @@ anime.timeline({loop: false})
   document.getElementById("button").addEventListener('click',function(){
     document.getElementById("beforeTimer").style.display = "none";
     document.getElementById("afterTimer").style.display = "block";
-    playSong();
   })
 
   // TIMER
@@ -64,6 +52,7 @@ anime.timeline({loop: false})
       }
     document.getElementById("result").innerHTML ="";
     document.getElementById("worked").innerHTML = "";
+    audio.play();
   }
   
   function stopTimer() {
